@@ -1,0 +1,47 @@
+.lista-de-compras {
+    background: linear-gradient(to bottom, #00b5e2, #00f0ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  h1 {
+    color: #00b5e2;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+    color: #00b5e2;
+    text-align: left;
+    max-width: 500px;
+    font-size: 22px;
+  }
+  
+  ul {
+    list-style-type: circle;
+    padding-left: 30px;
+    color: #00b5e2;
+    text-align: left;
+    max-width: 500px;
+    font-size: 22px;
+  }
+  
